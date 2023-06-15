@@ -1,0 +1,348 @@
+/****** Global Styles ******/
+body {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #5E5D5E;
+    /*width: 1200px;*/
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+    /*box-sizing: border-box;*/
+}
+
+/* */
+
+/****** Header Styles ******/
+.main-image {
+    background: url('../img/full-background.png'), #f9efef;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1,
+header nav {
+    /* background: url(C:\Users\USER\Desktop\html-css-jubilee-austen-01-starter-code\img\full-background.png);*/
+}
+
+
+header h1 {
+    color: #7B7E54;
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+    float: left;
+    font-family: 'Lora', serif;
+    width: 300px;
+}
+
+header nav {
+    /* list-style: none;*/
+    /* font-size: 18px;*/
+    float: right;
+    /* font-family: 'Lora', serif;*/
+    text-align: right;
+    width: 800px;
+    padding: 75px 25px 75px 0;
+}
+
+header nav ul {
+    /* text-decoration: none;*/
+    list-style: none;
+}
+
+header nav ul li {
+    /* font-size: 18px;*/
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: underline;
+    color: #727172;
+    padding-left: 80px;
+    /* display: inline-block;*/
+    font-size: 18px;
+    padding-right: -350px;
+
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-size: 72px;
+    line-height: 80px;
+    color: #817F80;
+    padding: 20px 0 20px 25px;
+    font-family: 'Lora', serif;
+}
+
+
+/****** About Styles ******/
+#About .content-wrapper {
+    padding: 80px 0;
+    /*width: 1200px;*/
+}
+
+#About h2 {
+    font-size: 36px;
+    padding-left: 50px;
+    font-family: 'Lora', serif;
+}
+
+#About p {
+    float: left;
+    font-size: 20px;
+    line-height: 40px;
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/****** Skill Styles ******/
+
+#Skills {
+    /* background: #f5f5f5;
+    text-align: center;*/
+    /*width: 1200px;*/
+    background: #F5F5F5;
+}
+
+#Skills .content-wrapper {
+    width: 1200px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    /* clear: both;*/
+    /*background: #F5F5F5;*/
+    text-align: center;
+}
+
+#Skills .skill-list {
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+}
+
+#Skills h2 {
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.skill-list h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+.skill-list p {
+    clear: both;
+    /*float: left;*/
+    box-sizing: border-box;
+    /* background: #F5F5F5;*/
+    font-size: 20px;
+    line-height: 40px;
+    /*width: 300px;
+    padding-right: 50px;
+    padding-left: 50px;*/
+    text-align: left;
+}
+
+
+
+
+/****** Contact Styles ******/
+#Contact {
+    background: #F9E9E9;
+}
+
+
+#Contact .content-wrapper {
+    /*background: #F9E9E9;*/
+    padding: 110px 0;
+    /*width: 1200px;*/
+    /* box-sizing: border-box;*/
+    /* float: left;*/
+}
+
+#Contact .desk-image {
+   /* width: 450px;*/
+    float: left;
+    /*margin: 0 50px;
+    height: 300px;
+    overflow: auto;
+    overflow: hidden;
+    border: 12px solid white;
+    box-sizing: border-box;*/
+    /*scrollbar-width: none;*/
+}
+
+.desk-image #desk-img {
+    width: 450px;
+    height: 350px;
+    border: 12px solid #ffffff;
+    margin: 0 50px;
+    box-sizing: border-box;
+    /* box-sizing: border-box;*/
+    overflow: auto;
+}
+
+#Contact .contact-information {
+    /*color: black;*/
+    /* clear: both;*/
+    /* overflow: auto;*/
+  /*  height: 120px;
+    float: left;
+    text-align: left;
+    font-size: 24px;
+    line-height: 36px;
+    width: 450px;
+    padding-left: 100px;
+    box-sizing: border-box;*/
+
+    font-size: 24px;
+    line-height: 36px;
+   /* padding-left: 100px;*/
+    margin-left: 100px;
+    box-sizing: border-box;
+    float: left;
+    text-align: left;
+    width: 500px;
+}
+
+
+#Contact .contact-information ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin: 0 99px 0 -40px;
+}
+
+
+#Contact h2 {
+   /* padding-bottom:30px;*/
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+#coffee-header h3 {
+    /*font-family: 'Lora', serif;*/
+    font-size: 24px;
+    line-height: 36px;
+   /* padding-bottom: 5px;*/
+    font-weight: 400px;
+}
+
+#Contact #envelope {
+    margin-right: 10px;
+}
+
+.contact-information .email-address {
+    padding-bottom: 0px;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.email-address #envelope {
+    font-weight: lighter;
+}
+
+.contact-information .email-address a{
+    color: #5E5D5E;
+    /*color: rgb(255, 0, 149);*/
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    /*font-weight: 400px;
+    font-weight: 700px;*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#socialmedia-header h3 {
+    /*font-family: 'Lora', serif;*/
+    font-size: 24px;
+    line-height: 36px;
+    /*padding-top: 20px;*/
+    padding-bottom: 0;
+    font-weight: 400px;
+    margin: 0;
+}
+
+
+
+/****** Project Styles ******/
+
+.projects-page {
+    background: #F9EFEF;
+    /*height: 120px;*/
+}
+
+.projects-page .content-wrapper  {
+    /*display: inline;
+    vertical-align: middle;*/
+}
+
+#Projects {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+
+#Projects .content-wrapper {
+    width: 1200px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
+}
+
+#Projects h2 {
+    /*font-family: 'Lora', serif;*/
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+#Projects .various-projects {
+    width: 300px;
+    float: left;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+.various-projects .project-site {
+   /* float: left;*/
+}
+
+
+.project-site #project-image {
+    width: 250px;
+    height: 125px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    place-items: center;
+    margin: auto;
+    /*margin-right: auto;*/
+    object-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#Projects h3 {
+    /*font-family: 'Lora', serif;*/
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 0px;
+}
